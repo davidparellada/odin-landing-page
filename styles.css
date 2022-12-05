@@ -1,0 +1,210 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    margin:0;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.topwrapper {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1000px;
+    gap: 120px;
+    padding: 0 30px 120px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    list-style: none;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.presentation {
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.introduction {
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+.introduction h1,
+.introduction p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.introduction h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.introduction p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introduction button {
+    align-self: flex-start;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #1F2937;
+    border-radius: 4px;
+}
+
+.introduction button:hover {
+    background-color: #1F2937;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.yunabunny {
+    border-radius: 8px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cool-pictures {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.picture {
+    display:flex;
+    gap: 10px;
+    flex-basis: 150px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: Center;
+}
+
+.picture p {
+    margin: 0px;
+    padding: 0px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quotewrapper {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 90px 30px;
+    flex-basis: 1000px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    color:  #1F2937;
+    margin: 0 0 40px 0;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: end;
+    margin: 0;
+}
+
+.call {
+    display:flex;
+    justify-content: center;
+    padding: 90px 10px;
+}
+
+.alert {
+    display:flex;
+    border-radius: 10px;
+    flex-basis: 950px;
+    height: 130px;
+    background-color:#3882F6;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert p{
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+
+.subscribe-title {
+    font-weight: bold;
+}
+
+.alert button {
+    padding: 6px 24px;
+    font-weight: bold;
+    font-size: 12px;
+    border: 3px solid white;
+    color:white;    
+    border-color: white;
+    border-radius: 4px;
+    background-color: #3882F6;
+}
+
+.alert button:hover{
+        color: #1F2937;
+        padding: 8px 32px;
+        font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 22px;
+    padding: 30px 30px;
+}
